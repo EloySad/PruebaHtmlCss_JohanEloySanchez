@@ -131,3 +131,61 @@
     border-right: 5px solid blue;
     border-left: 5px solid red;
 }
+
+.tickets-sect article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-sc);
+    font-size: large;
+    margin: 5% 0% 2% 0%;
+}
+
+#p-n-y{
+    font-size: larger;
+}
+
+.tickets-sect div{
+    width: 100%;
+    color: var(--color-sc);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-top: 0.2px solid var(--color-sc);
+    border-bottom: 0.2px solid var(--color-sc);
+}
+
+.tickets-sect div button{
+    width: 8%;
+    height: 35px;
+    border-radius: 100px;
+}
+
+.tickets-sect div button:hover{
+    border-right: 5px solid blue;
+    border-left: 5px solid red;
+}
+
+#follow-sect article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-sc);
+    font-size: large;
+    margin: 5% 0% 2% 0%;
+}
+
+#follow-sect article button{
+    margin-top: 1%;
+    width: 7%;
+    height: 40px;
+    border-radius: 100px;
+}
+
+#follow-sect article button:hover{
+    border-right: 5px solid blue;
+    border-left: 5px solid red;
+}
